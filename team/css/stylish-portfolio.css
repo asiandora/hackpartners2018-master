@@ -8,22 +8,6 @@ body {
   font-family: 'proxima_nova_scosfthin';
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-.fadeInUp {
-  animation-name: fadeInUp;
-}
-
 .container-team {
   position:relative;
   padding-right: 35px;
@@ -321,9 +305,6 @@ h6 {
 
 
 /* Add some shadows to create a card effect */
-.card2 {
-  background-color: #eeeeee;
-}
 
 .team-bg {
   width: 100%;
@@ -401,12 +382,40 @@ h6 {
     cursor: pointer;
   }
   
-  #filters li span .active {
+  #filters li span.active {
     background: #222222;
     color:#fff;
   }
 
+.card2 {
+  background-color: #eeeeee;
+}
 
+
+
+#portfoliolist .portfolio {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  width:23%;
+  margin:1%;
+  display:none;
+  float:left;
+  overflow:hidden;
+}
+
+  .portfolio-wrapper {
+    overflow:hidden;
+    position: relative !important;
+  }
+
+  .portfolio img {
+    max-width:100%;
+    position: relative;
+    top:0;
+    -webkit-transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition:         all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);   
+  }
 
 .service-icon {
   background-color: #fff;
