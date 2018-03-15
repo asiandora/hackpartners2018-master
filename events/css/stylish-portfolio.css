@@ -91,13 +91,14 @@ body {
   height: 300px;
   padding: 15px;
   margin: 10px;
-  border: 1px solid #222222;
-  
-  /*-moz-border-image: -moz-linear-gradient(left, #cf04e1 0%, #05fdee 100%);
-  -webkit-border-image: -webkit-linear-gradient(left, #cf04e1 0%, #05fdee 100%);
-  border-image: linear-gradient(to right, #cf04e1 0%, #05fdee 100%);
-  border-image-slice: 1;*/
+  border: 2px solid #222222;
+  -moz-border-image: -moz-linear-gradient(left, #d366e3 0%, #39cac3 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #d366e3 0%, #39cac3 100%);
+  border-image: linear-gradient(to right, #d366e3 0%, #39cac3 100%);
+  border-image-slice: 1;
 }
+
+
 
 #date {
   font-size: 14px;
