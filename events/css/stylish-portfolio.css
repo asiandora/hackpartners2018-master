@@ -89,9 +89,14 @@ body {
   background-color: #eeeeee;
   width:auto;
   height: 300px;
-  padding: 30px;
+  padding: 15px;
   margin: 10px;
   border: 1px solid #222222;
+  
+  /*-moz-border-image: -moz-linear-gradient(left, #cf04e1 0%, #05fdee 100%);
+  -webkit-border-image: -webkit-linear-gradient(left, #cf04e1 0%, #05fdee 100%);
+  border-image: linear-gradient(to right, #cf04e1 0%, #05fdee 100%);
+  border-image-slice: 1;*/
 }
 
 #date {
@@ -108,7 +113,7 @@ body {
 #summary{
   font-family: "Proxima Nova";
   font-size: 21px;
-  letter-spacing:4px;
+  letter-spacing:2px;
 }
 
 #description{
