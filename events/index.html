@@ -126,11 +126,13 @@
 
   <!-- Events -->
     <section id="events" class="service-section text-center text-uppercase">
-        <div class="container-team">
-            <p id="events-upcoming">
-            </p>
-            <p id="events-past">
-            </p>
+        <div class="container">
+
+              <p id="events-upcoming">
+              </p>
+              <p id="events-past">
+              </p>
+
         </div>
     </section>
 
@@ -192,14 +194,14 @@
         upcoming: true,
         sameDayTimes: true,
         pastTopN: 3,
-        upcomingTopN: 3,
+        upcomingTopN: 6,
         recurringEvents: true,
-        itemsTagName: 'div',
+        itemsTagName: 'div class="fixed-width"',
         upcomingSelector: '#events-upcoming',
         pastSelector: '#events-past',
-        upcomingHeading: '<h1><span>Upcoming</span><br>events</h1>',
-        pastHeading: '<h1><span>Past</span><br>events</h1>',
-        format: ['*summary*', '<br>', '*date*', '<br>', '*location*', '*description*']
+        upcomingHeading: '<h1><span>Upcoming</span> events</h1>',
+        pastHeading: '<h1><span>Past</span> events</h1>',
+        format: ['*summary*', '<br>', '*date*', '<br>', '*location*', '<br>', '*description*']
       });
     </script>
 

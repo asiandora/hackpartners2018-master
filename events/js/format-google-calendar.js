@@ -155,7 +155,7 @@ var formatGoogleCalendar = (function() {
             format[i] = format[i].toString();
 
             if (format[i] === '*summary*') {
-                output = output.concat('<div class="col-sm-4 wow bounce">' + '<div class="event-box">' + '<span id="summary">' + '<br>' + summary + '</span>');
+                output = output.concat('<div class="wow bounce">' + '<div class="event-box">' + '<span id="summary">' + '<br>' + summary + '</span>');
             } else if (format[i] === '*date*') {
                 output = output.concat('<span id="date">' + '<br>' + dateFormatted + '</span>');
             } else if (format[i] === '*description*') {
@@ -389,7 +389,7 @@ var formatGoogleCalendar = (function() {
                 pastTopN: -1,
                 upcomingTopN: -1,
                 recurringEvents: true,
-                itemsTagName: 'li',
+                itemsTagName: 'div class="fixed-width"',
                 upcomingSelector: '#events-upcoming',
                 pastSelector: '#events-past',
                 upcomingHeading: '<h2>Upcoming events</h2>',

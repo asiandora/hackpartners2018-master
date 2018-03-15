@@ -55,12 +55,10 @@ body {
 }
 
 .service-section h1 {
-  font-size:18px;
-  margin-top:20px;
-  margin-left:-250px;
-  padding-right:5px;
-  text-align:right;
-  width:40%;
+  font-size:21px;
+  margin-top:10px;
+  text-align:center;
+  letter-spacing:3px;
 }
 
 .service-section h1 span{
@@ -75,12 +73,25 @@ body {
   padding:20px;
 }
 
+#events-upcoming{
+  display:table;
+  width:100%;
+  table-layout:fixed;
+  border-spacing:10px;
+}
+
+.fixed-width{
+  display:inline-grid;
+  width:33.3%;
+}
+
 .event-box{
   background-color: #eeeeee;
-  height: auto;
-  padding: 20px;
-  margin: 30px 0 10px 0;
-  box-shadow: 1px 1px 1px #222222;
+  width:auto;
+  height: 300px;
+  padding: 30px;
+  margin: 10px;
+  border: 1px solid #222222;
 }
 
 #date {
